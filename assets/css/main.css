@@ -292,6 +292,7 @@
 .header__search-cart:hover .cart__body {
     display: block;
     transform-origin: calc(100% - 20px) top;
+    z-index: 1;
     animation: headerNotifyGrow ease-in 0.2s;
 }
 /* cart hover code */
@@ -562,4 +563,116 @@
     color: var(--while-color);
 }
 /* product */
+
+/* pagination */
+.pagination {
+    margin: 32px 0 162px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-item {
+    padding-left: 0;
+    margin: 0 16px;
+}
+.pagination-item--active .pagination-item-link {
+    background-color: #d0011b;
+    color: var(--while-color);
+}
+.pagination-item-link {
+    display: block;
+    text-decoration: none;
+    color: #a1a2a0;
+    font-size: 1.8rem;
+    min-width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+}
+.pagination-item--active:hover {
+    opacity: 0.7;
+}
+/* pagination */
 /* container */
+
+/* footer */
+.footer {
+    border-top: 4px solid #d51f36;
+}
+.footer__heading {
+    font-size: 1.3rem;
+    color: rgba(0,0,0,0.54);
+    margin-top: 32px;
+}
+.footer__heading-list {
+    padding-left: 0;
+}
+.footer__heading-list-item {
+    font-size: 1.2rem;
+    list-style-type: none;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+.footer__heading-list-item:hover .footer-item-link {
+    color: #ee4d2d;
+}
+.footer-item-link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.54);
+}
+
+.footer-item-icon {
+    font-size: 1.8rem;
+    margin-right: 10px;
+}
+
+.footer__download {
+    display: flex;
+}
+.footer__img-qr {
+    width: 84px;
+    height: 84px;
+    border: 1px solid rgba(0,0,0,0.09);
+    margin-right: 15px;
+}
+.footer__download-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer__apps-item {
+    width: 80px;
+    height: 20px;
+}
+
+/* subfooter */
+.subfooter {
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+    width: 100%;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.subfooter-body {
+    display: flex;
+    align-items: center;
+}
+.subfooter-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+}
+.subfooter-content {
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.54);
+    font-weight: 400;
+    
+}
+.subfooter-content-num {
+    display: block;
+    
+}
+/* subfooter */
+/* footer */
