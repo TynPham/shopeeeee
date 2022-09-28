@@ -99,4 +99,34 @@
   .footer__download {
     flex-direction: column;
   }
+
+  .grid--width-2_4 {
+    width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .product-item-special {
+    display: none;
+  }
+  .price-old {
+    font-size: 0.8rem;
+  }
+  .price-current {
+    font-size: 0.9rem;
+  }
+  .product-item-body {
+    line-height: 1;
+  }
+  .product-item-price .shopee-svg-icon {
+    height: 4px;
+    position: absolute;
+    right: -5px;
+  }
+  .product-item-sold {
+    padding-left: 0;
+    font-size: 0.8rem;
+  }
+  .product-item-place {
+    font-size: 0.9rem;
+  }
 }
